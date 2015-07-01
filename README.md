@@ -6,6 +6,9 @@ If you want to contact me:
 http://steamcommunity.com/profiles/76561198028630048/
 Make sure your profile is not private.
 
+Donation Link:
+http://steamcommunity.com/tradeoffer/new/?partner=68364320&token=CzTCv8JM
+
 ## Login 
 You need to grab the cookies after you did the steam login.
 I suggest u to use Jessecar96's Steambot: https://github.com/Jessecar96/SteamBot.
