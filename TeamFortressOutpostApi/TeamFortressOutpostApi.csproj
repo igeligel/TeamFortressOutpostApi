@@ -5,4 +5,13 @@
     <RootNamespace>HedgehogSoft.TeamFortressOutpostApi</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AngleSharp" Version="0.9.9" />
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="SteamLogin\" />
+  </ItemGroup>
+
 </Project>
