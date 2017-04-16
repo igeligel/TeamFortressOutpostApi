@@ -21,3 +21,9 @@ Make sure your profile is not private.
   <a href="https://twitter.com/kevinpeters_"><img src="https://img.shields.io/badge/Contact-Twitter-1da1f2.svg" alt="Twitter of Kevin Peters"></a>
   <a href="http://steamcommunity.com/profiles/76561198028630048"><img src="https://img.shields.io/badge/Contact-Steam-000000.svg" alt="Steam Profile of Kevin Peters"></a>
 </p>
+
+## Images
+
+### Basic HTTP Timeline
+
+![HTTP Timeline](http://i.imgur.com/2vwcJ7b.png)
