@@ -2,7 +2,7 @@
 
 <div align="center"><a href="https://www.paypal.me/kevinpeters96/1"><img src="https://img.shields.io/badge/Donate-Paypal-003087.svg?style=flat" alt="badge Donate" /></a> <a href="https://steamcommunity.com/tradeoffer/new/?partner=68364320&token=CzTCv8JM"><img src="https://img.shields.io/badge/Donate-Steam-000000.svg?style=flat" alt="badge Donate" /></a> <a href="https://camo.githubusercontent.com/821427c89e1b8a9b508077c4379abac05192eae2/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f6967656c6967656c2f5465616d466f7274726573734f7574706f73744170692e737667"><img src="https://img.shields.io/badge/License-MIT-1da1f2.svg?style=flat" alt="badge License" /></a> </div>
 
-<div style="text-align:center"><img src ="http://i.imgur.com/t7TEH8L.gif" /><img src ="http://i.imgur.com/X1ujmme.gif" /></div>
+<div align="center"><img src ="http://i.imgur.com/t7TEH8L.gif" /><img src ="http://i.imgur.com/X1ujmme.gif" /></div>
 
 ## Description
 
@@ -22,9 +22,11 @@ To install just you need to have .net core installed.
 
 You can install this package via nuget or locally. Try to reference it as package in your .csproj file or install it via:
 
+```powershell
+PM> Install-Package TeamFortressOutpostApi
 ```
-pm-install ...
-```
+
+or search for ``TeamFortressOutpostApi`` in your nuget feed.
 
 ## How To Use
 
@@ -88,6 +90,3 @@ This is the basic structure of the OpenId Login via Steam to TF2 Outpost.
 
 ## This readme is powered by vue-readme
 Check out vue-readme [[Website](https://igeligel.github.io/vue-readme) | [GitHub](https://github.com/igeligel/vue-readme)]
-
-
-
