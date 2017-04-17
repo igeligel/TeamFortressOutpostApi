@@ -19,6 +19,13 @@ namespace HedgehogSoft.TeamFortressOutpostApi
             _restClient = new RestClient();
         }
 
+        /// <summary>
+        /// Method to login into TF2 Outpost.
+        /// </summary>
+        /// <param name="username">Your Steam Username.</param>
+        /// <param name="password">Your Steam Password.</param>
+        /// <param name="sharedSecret">Your Steam Shared Secret.</param>
+        /// <returns>An Instance of <see cref="ITeamFortressOutpostLoginResponse"/> which holds the uhash and the CookieContainer with all cookies.</returns>
         public ITeamFortressOutpostLoginResponse Login(string username, string password, string sharedSecret)
         {
             GetMainPage();
