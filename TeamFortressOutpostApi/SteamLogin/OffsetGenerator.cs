@@ -8,7 +8,7 @@ namespace HedgehogSoft.TeamFortressOutpostApi.SteamLogin
     {
         internal static OffsetResponse GetOffset()
         {
-            var response = RestClient.GetSteamOffset();
+            var response = new RestClient().GetSteamOffset();
             return JsonConvert.DeserializeObject<OffsetResponse>(response.Content.ReadAsStringAsync().Result); 
         }
     }
