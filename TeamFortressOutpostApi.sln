@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamFortressOutpostApi", "TeamFortressOutpostApi\TeamFortressOutpostApi.csproj", "{2AD6AB91-6492-427D-B06A-11F620451388}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamFortressOutpostApiConsole", "TeamFortressOutpostApiConsole\TeamFortressOutpostApiConsole.csproj", "{7DF7661C-E676-460E-A41E-F3158A5AFF65}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamFortressOutpostApiConsole", "examples\TeamFortressOutpostApiConsole\TeamFortressOutpostApiConsole.csproj", "{7DF7661C-E676-460E-A41E-F3158A5AFF65}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
