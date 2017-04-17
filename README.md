@@ -1,6 +1,6 @@
 # TF2Outpost-API
 
-<p align="center"><img src="./assets/team-fortress-outpost-api.png"></p>
+<p align="center"><img src="./docs/team-fortress-outpost-api.png"></p>
 
 <p align="center">
   <a href="https://www.paypal.me/kevinpeters96/1"><img src="https://img.shields.io/badge/Donate-Paypal-003087.svg" alt="Donation link to paypal of Kevin Peters"></a>
