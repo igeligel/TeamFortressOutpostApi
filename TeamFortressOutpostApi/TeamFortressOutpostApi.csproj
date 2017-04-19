@@ -1,24 +1,19 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <TargetFramework>netstandard1.3</TargetFramework>
     <RootNamespace>HedgehogSoft.TeamFortressOutpostApi</RootNamespace>
+    <PackageProjectUrl>https://github.com/igeligel/TeamFortressOutpostApi</PackageProjectUrl>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>0.1.0</Version>
+    <Version>0.1.1</Version>
     <Authors>Kevin Peters</Authors>
     <Company />
-    <Product />
-    <Description>A .net core class library which reverse engineered the HTTP API of TF2 Outpost.</Description>
+    <Description>An API wrapper for the TF2 Outpost platform. A platform to find great deals for your Team Fortress 2, Counter-Strike: Global Offensive and Dota 2 items with zero hassle.</Description>
     <PackageLicenseUrl>https://github.com/igeligel/TeamFortressOutpostApi/blob/master/LICENSE</PackageLicenseUrl>
-    <PackageProjectUrl>https://github.com/igeligel/TeamFortressOutpostApi</PackageProjectUrl>
     <RepositoryUrl>https://github.com/igeligel/TeamFortressOutpostApi</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>teamfortress2, steam, steambot, steam-api, crawler, bot, bot-framework</PackageTags>
-    <PackageReleaseNotes>Initial Release of this package. Feature includes:
-
-- Login
-
-For further features wait for the next versions</PackageReleaseNotes>
+    <PackageReleaseNotes>New release to include .netstandard support rather than .netcoreapp.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
