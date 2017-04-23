@@ -1,4 +1,5 @@
-﻿using HedgehogSoft.TeamFortressOutpostApi.Interfaces;
+﻿using System;
+using HedgehogSoft.TeamFortressOutpostApi.Interfaces;
 using HedgehogSoft.TeamFortressOutpostApi.Models;
 using System.Net;
 using System.Net.Http;
@@ -71,6 +72,7 @@ namespace HedgehogSoft.TeamFortressOutpostApi.Rest
         {
             var httpHeaders = RequestHeaders.SteamLoginHeaders(referer);
             var httpClientHandler = GetDefaultHttpClientHandler(true);
+            httpClientHandler.CookieContainer.Add(new Uri("https://steamcommunity.com"),new Cookie("timezoneoffset", "7200"));
             var httpClient = new HttpClient(httpClientHandler).AddRequestHeaders(httpHeaders);
             return httpClient.PostAsync("https://steamcommunity.com/login/getrsakey/", FormDataGenerator.SteamRsa(username)).Result;
         }
